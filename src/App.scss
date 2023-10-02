@@ -1,0 +1,16 @@
+@import '../src/styles/theme.scss';
+@import '../src/styles/variable.scss';
+
+.App {
+  height: 100vh;
+
+  &.light-theme {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+
+  &.dark-theme {
+    background-color: $secondary-color;
+    color: $primary-color;
+  }
+}
